@@ -1,0 +1,17 @@
+# Task 1: Variables
+
+# 1. Variable named pi
+pi = 22 / 7
+print("Value of pi:", pi)
+print("Data type of pi:", type(pi))
+
+# 2. Variable called 'for' (this will cause SyntaxError since 'for' is a reserved keyword)
+# for = 4  # Uncommenting this will throw error
+print("Reason: 'for' is a reserved keyword in Python and cannot be used as a variable name.")
+
+# 3. Simple Interest Calculation
+P = 1000  # principal amount
+R = 5     # rate of interest
+T = 3     # time in years
+SI = P * R * T / 100
+print("Simple Interest:", SI)
