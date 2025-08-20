@@ -15,3 +15,25 @@ R = 5     # rate of interest
 T = 3     # time in years
 SI = P * R * T / 100
 print("Simple Interest:", SI)
+
+# Task 2: Numbers
+
+# 1. Format function
+result = format(145, 'o')  # 'o' formats integer into octal
+print("Formatted result (octal):", result)
+
+# 2. Area of circular pond
+radius = 84
+area = 3.14 * (radius ** 2)
+print("Area of pond:", area)
+
+# Water in pond
+water = int(area * 1.4)  # liters (no decimal)
+print("Total water in pond (liters):", water)
+
+# 3. Speed calculation
+distance = 490  # meters
+time_minutes = 7
+time_seconds = time_minutes * 60
+speed = int(distance / time_seconds)  # no decimal
+print("Speed in m/s:", speed)
